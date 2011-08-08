@@ -1,0 +1,21 @@
+THIS IS THE README FOR OUR CURRENT PROJECT, WHICH WILL BE UPDATED AS THINGS PROGRESS.
+
+Git Reference : http://gitref.org/
+
+PLEASE MAKE SURE YOU LOG CHANGES TO THE FILE THAT YOU CHANGES
+To commit : git commit -m "A concise description"
+IF it's a NEW file, please add the file first before committing.
+To add : git add FILENAME or git add . (to add all)
+
+Please PULL/FETCH OFTEN
+It's best to always PULL before you begin your work.
+It's better to FETCH than PULL. PULL will merge everything, while FETCH, you can monitor what you are merging. It's just safer to use.
+
+To fetch : git fetch origin
+Check difference : git diff master origin/master
+To merge : git merge origin/master
+
+To check the development log, use: git log
+You can check what other members are doing and their commits from there.
+
+After finishing your work, and ready to be shared with others, please push your work using: git push origin master
